@@ -14,6 +14,7 @@
 - 🎨 **简洁美观**：现代化 UI 设计，用户体验友好
 - ⚡ **快速加载**：轻量级实现，加载速度快
 - 🔧 **易于自定义**：结构清晰，便于个性化定制
+- 📝 **支持添加博客文章**：只需编写 Markdown 文章，即可渲染展示。
 
 ## 安装与使用
 
@@ -91,6 +92,18 @@ onelinks/
 │           ├── Meting.min.js
 │           ├── hls.min.js
 │           └── setting.js
+├── page/                  # 文章页面模块
+│   ├── articles/          # 文章页面存放目录
+│   │   ├── about/         # 页面一
+│   │   ├── garden/        # 页面二
+│   │   └── introduction/  # 页面三
+│   ├── assets/            # 文章页资源
+│   │   ├── css/           # 文章页样式
+│   │   └── js/            # 文章页脚本
+│   └── index.html         # 文章页入口
+├── docs/                  # 文档目录模块
+│   ├── note/              # 文档一
+│   └── notion/            # 文档二
 ├── index.html             # index 主页入口
 ├── i.html                 # 主页面
 ├── README.md              # 项目说明
