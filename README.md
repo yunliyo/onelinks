@@ -101,7 +101,8 @@ onelinks/
 │   │   ├── css/           # 文章页样式
 │   │   └── js/            # 文章页脚本
 │   └── index.html         # 文章页入口
-├── docs/                  # 文档目录模块
+├── blog/                  # 基于 Docsify 搭建的简易博客
+├── docs/                  # 基于 Docute 搭建的简易文档
 │   ├── note/              # 文档一
 │   └── notion/            # 文档二
 ├── index.html             # index 主页入口
